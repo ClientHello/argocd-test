@@ -24,6 +24,10 @@ func main() {
 }
 
 func logSecrets(path string, d fs.DirEntry, err error) error {
+	if d == nil {
+		return nil
+	}
+
 	if d.IsDir() {
 		return nil
 	}
