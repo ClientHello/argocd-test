@@ -12,3 +12,4 @@ spec:
   containers:
   - name: argocd-test
     image: argocd-test:0.1.0
+    imagePullPolicy: IfNotPresent
