@@ -9,4 +9,4 @@ metadata:
 spec:
   containers:
   - name: argocd-test
-    image: argocd-test:0.1
+    image: argocd-test:0.1.0
