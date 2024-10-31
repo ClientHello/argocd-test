@@ -11,5 +11,5 @@ metadata:
 spec:
   containers:
   - name: argocd-test
-    image: argocd-test:0.1.0
+    image: argocd-test:v0.1.0
     imagePullPolicy: Never
