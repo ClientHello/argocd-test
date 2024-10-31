@@ -6,6 +6,8 @@ metadata:
     xfabric.kubernetes.io/secret-manager: vault
     xfabric.kubernetes.io/secret-service-tag-value: argocd-test
     xfabric.kubernetes.io/vault-mount: secret
+  labels:
+    app: argocd-test
 spec:
   containers:
   - name: argocd-test
