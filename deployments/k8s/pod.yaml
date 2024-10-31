@@ -11,5 +11,8 @@ metadata:
 spec:
   containers:
   - name: argocd-test
+    env:
+    - name: HTTP_PORT
+      value: 9999
     image: argocd-test:v0.1.0
     imagePullPolicy: Never
