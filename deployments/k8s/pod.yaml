@@ -16,3 +16,4 @@ spec:
       value: "9999"
     image: argocd-test:v0.1.0
     imagePullPolicy: Never
+  serviceAccountName: argocd-test
